@@ -219,11 +219,11 @@ const Home = () => {
                 <div className="py-5 text-start">
                     <h2 className="text-green-700 font-bold">HOW IT WORKS</h2>
                 </div>
-                <div className="flex justify-between items-center">
+                <div className="flex gap-5 items-center">
                     <div className="text-start">
                         <div className="py-5">
                             <div className="mb-6">
-                                <img src={iconic} className="w-20 mb-4" alt="" />
+                                <img src={iconic} className=" mb-4" alt="" />
                                 <h4 className='font-bold'>Pick the Right Box Style for You</h4>
                                 <span>Fusce viverra convallis commodo. Aenean iaculis urna ac urna </span><br />
                                 <span>bibendum pharetra. Pellentesque habitant</span>
