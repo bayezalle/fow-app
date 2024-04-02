@@ -73,7 +73,7 @@ const Home = () => {
     ];
 
     return (
-        <div className="py-6 mt-5">
+        <div className="py-6 mt-6">
             <section className="section1 mt-5 py-5">
                 <div id="custom-controls-gallery" class="relative max-w-full" data-carousel="slide">
                     {/* <!-- Carousel wrapper --> */}
