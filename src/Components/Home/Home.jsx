@@ -121,7 +121,7 @@ const Home = () => {
                 </div>
             </section>
             <section>
-                <div class="mt-5">
+                <div class="container mx-auto mt-5">
                     <div className="py-5 mt-5">
                         <h4 className='text-lime-800 font-3 font-bold'>CATEGORY</h4>
                         <h2 className='text-lg font-bold'>Shop by Category</h2>

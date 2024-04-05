@@ -1,4 +1,4 @@
-// import './App.css'
+import './App.css'
 // import Footer from './Components/Footer/Footer'
 import Home from "./Components/Home/Home"
 import Header from './Components/Nav/Header'
@@ -10,7 +10,7 @@ function App() {
     <div>
       {/* <NavBar /> */}
       <Header />
-      {/* <Home /> */}
+      <Home />
       {/* <Footer /> */}
     </div>
   )
