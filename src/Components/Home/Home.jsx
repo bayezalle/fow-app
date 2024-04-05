@@ -126,33 +126,33 @@ const Home = () => {
                         <h4 className='text-lime-800 font-3 font-bold'>CATEGORY</h4>
                         <h2 className='text-lg font-bold'>Shop by Category</h2>
                     </div>
-                    <div class="flex justify-between items-center mt-3 py-5 mb-5">
-                        <div className='font-5 items-center'>
+                    <div class="flex flex-row flex-wrap justify-between mt-3 py-5 mb-5">
+                        <div className='basic-28 mb-3'>
                             <img class="h-auto max-w-full rounded-lg" 
                             src={c1} alt=""/>
                             <span>Vegitables - (12)</span>
                         </div>
-                        <div>
+                        <div className='basic-28 mb-3'>
                             <img class="h-auto max-w-full rounded-lg" 
                             src={c2} alt=""/>
-                            <span>Agriculture Items - (12)</span>
+                            <span>Agriculture - (12)</span>
                         </div>
-                        <div>
+                        <div className='basic-28 mb-3'>
                             <img class="h-auto max-w-full rounded-lg" 
                             src={c3} alt=""/>
                             <span>Milk Products - (12)</span>
                         </div>
-                        <div>
+                        <div className='basic-28 mb-3'>
                             <img class="h-auto max-w-full rounded-lg" 
                             src={c4} alt=""/>
                             <span>Frozen Items - (10)</span>
                         </div>
-                        <div>
+                        <div className='basic-28 mb-3'>
                             <img class="h-auto max-w-full rounded-lg" 
                             src={c5} alt=""/>
                             <span>Frozen Items - (10)</span>
                         </div>
-                        <div>
+                        <div className='basic-28 mb-3'>
                             <img class="h-auto max-w-full rounded-lg" 
                             src={c6} alt=""/>
                             <span>Frozen Items - (10)</span>
@@ -215,15 +215,15 @@ const Home = () => {
                     </div>
                 </div>
             </section>
-            <section className="bg-silver-700">
+            <section className="h-screen">
                 <div className="py-5 text-start">
                     <h2 className="text-green-700 font-bold">HOW IT WORKS</h2>
                 </div>
-                <div className="flex gap-5 items-center">
+                <div className="flex flex-row flex-wrap justify-between mx-auto max-w-screen-xl gap-6">
                     <div className="text-start">
                         <div className="py-5">
                             <div className="mb-6">
-                                <img src={iconic} className=" mb-4" alt="" />
+                                <img src={iconic} className="w-20 mb-4" alt="" />
                                 <h4 className='font-bold'>Pick the Right Box Style for You</h4>
                                 <span>Fusce viverra convallis commodo. Aenean iaculis urna ac urna </span><br />
                                 <span>bibendum pharetra. Pellentesque habitant</span>
@@ -242,16 +242,13 @@ const Home = () => {
                             </div>
                         </div>
                     </div>
-                    <div className="">
-                        <div className="py-5 max-w-full">
-                            <div className="font-bold text-5xl mb-3">
-                                <h1>Organic Produce
-                                Deliver to your Door
-                                </h1>
-                            </div>
-                            <div className="">
-                                <img src={organic} className='' alt="" />
-                            </div>
+                    <div className=" text-center">
+                        <div className='font-bold text-start text-3xl'>
+                            <h1>Organic Produce</h1>
+                            <h1>Deliver to your Door</h1>
+                        </div>
+                        <div className="">
+                            <img src={organic} className='w-80 h-auto mt-5' alt="" />
                         </div>
                     </div>
                 </div>                   

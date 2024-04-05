@@ -1,10 +1,28 @@
 import React from 'react'
 import easylogo from "../../images/easy.png"
+import { BsTelephone } from "react-icons/bs";
+import car from '../../images/blog/car.svg'
 
 const NavBar = () => {
   return (
-<div className='mb-5'>
-<nav class="bg-white p-5 dark:bg-gray-900 fixed w-full z-20 top-0 start-0 border-b border-gray-200 dark:border-gray-600">
+<div className='max-w-full mb-5'>
+    <nav class="bg-white border-gray-200 dark:bg-gray-900">
+        <div class="flex flex-wrap justify-between items-center mx-auto max-w-screen-xl p-4 shadow rounded-lg">
+            <div className="flex justify-between items-center gap-2 mb-3">
+          <img src={car} alt="Service" class="icon-svg-img"/>
+                <span>Service disponible 24h/24</span>
+            </div>
+            <div className="flex justify-between items-center gap-2 mb-3">
+            <BsTelephone />
+            <span>Livraison en 24h</span>
+            </div>
+            <div className="flex justify-between items-center gap-2 mb-3">
+              <img src={car} alt="Service" class="icon-svg-img"/>
+              <span>33 00 000 000</span>
+            </div>
+        </div>
+    </nav>
+<nav class="bg-white p-5 dark:bg-gray-900  w-full z-20 top-0 start-0 border-b border-gray-200 dark:border-gray-600">
   <div class="max-w-screen-xl flex flex-wrap items-center mt-3 justify-between mx-auto p-4">
   <a href="" class="flex items-center space-x-3 rtl:space-x-reverse">
       <img src={easylogo} class="h-8" alt="Flowbite Logo"/>
